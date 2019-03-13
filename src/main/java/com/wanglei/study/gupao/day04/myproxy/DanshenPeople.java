@@ -8,6 +8,6 @@ public class DanshenPeople implements People {
      * 寻找畔铝
      */
     public void findLover() {
-        System.out.println(" 白富美");
+        System.out.println(" 我要白富美");
     }
 }
