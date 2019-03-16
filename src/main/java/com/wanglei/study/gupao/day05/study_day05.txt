@@ -2,6 +2,7 @@
 1、举例Spring源码中你见过的委派模式，并画出类关系图。
 
 
+
 2、利用策略模式重构一段业务代码。
 package com.wanglei.study.gupao.day05.job.strategy;
 ReconsitutionClient 重构了Client的代码
