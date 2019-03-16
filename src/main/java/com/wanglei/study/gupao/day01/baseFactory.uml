@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-118.0" y="257.0">com.wanglei.day01.Clent</node>
+    <node x="-443.0" y="26.0">com.wanglei.day01.XmlExecutor</node>
+    <node x="-204.0" y="26.0">com.wanglei.day01.JsonExecutor</node>
+    <node x="-228.08333333333334" y="153.0">com.wanglei.day01.FmtFactory</node>
+    <node x="-156.08333333333337" y="-101.0">com.wanglei.day01.Iexecutor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.wanglei.day01.Clent" target="com.wanglei.day01.Iexecutor">
+      <point x="57.666666666666686" y="-27.0" />
+      <point x="26.166666666666686" y="232.0" />
+      <point x="47.96354166666663" y="232.0" />
+      <point x="47.96354166666663" y="1.0" />
+      <point x="35.54166666666663" y="1.0" />
+      <point x="82.125" y="38.5" />
+    </edge>
+    <edge source="com.wanglei.day01.XmlExecutor" target="com.wanglei.day01.Iexecutor">
+      <point x="0.0" y="-38.5" />
+      <point x="-333.5" y="1.0" />
+      <point x="-128.70833333333337" y="1.0" />
+      <point x="-82.125" y="38.5" />
+    </edge>
+    <edge source="com.wanglei.day01.JsonExecutor" target="com.wanglei.day01.Iexecutor">
+      <point x="0.0" y="-38.5" />
+      <point x="-94.5" y="1.0" />
+      <point x="-73.95833333333337" y="1.0" />
+      <point x="-27.375" y="38.5" />
+    </edge>
+    <edge source="com.wanglei.day01.Clent" target="com.wanglei.day01.FmtFactory">
+      <point x="-57.66666666666663" y="-27.0" />
+      <point x="-89.16666666666663" y="232.0" />
+      <point x="-165.08333333333337" y="232.0" />
+      <point x="-63.0" y="27.0" />
+    </edge>
+    <edge source="com.wanglei.day01.FmtFactory" target="com.wanglei.day01.Iexecutor">
+      <point x="84.0" y="-27.0" />
+      <point x="-18.08333333333337" y="128.0" />
+      <point x="28.25" y="128.0" />
+      <point x="28.25" y="1.0" />
+      <point x="-19.20833333333337" y="1.0" />
+      <point x="27.375" y="38.5" />
+    </edge>
+    <edge source="com.wanglei.day01.FmtFactory" target="com.wanglei.day01.XmlExecutor">
+      <point x="-84.0" y="-27.0" />
+      <point x="-186.08333333333337" y="128.0" />
+      <point x="-333.5" y="128.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.wanglei.day01.FmtFactory" target="com.wanglei.day01.JsonExecutor">
+      <point x="0.0" y="-27.0" />
+      <point x="-102.08333333333337" y="128.0" />
+      <point x="-94.5" y="128.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="39.5" y="79.5" />
+  <SelectedNodes>
+    <node>com.wanglei.day01.Iexecutor</node>
+    <node>com.wanglei.day01.Clent</node>
+    <node>com.wanglei.day01.XmlExecutor</node>
+    <node>com.wanglei.day01.JsonExecutor</node>
+    <node>com.wanglei.day01.FmtFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
