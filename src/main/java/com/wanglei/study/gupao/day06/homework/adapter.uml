@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="221.0" y="314.0">com.wanglei.study.gupao.day06.homework.Client</node>
+    <node x="133.0" y="238.0">com.wanglei.study.gupao.day06.homework.AbAdapter</node>
+    <node x="0.0" y="238.0">com.wanglei.study.gupao.day06.homework.WyAdapter</node>
+    <node x="0.0" y="314.0">com.wanglei.study.gupao.day06.homework.BeforeInsertJnlService</node>
+    <node x="0.0" y="0.0">com.wanglei.study.gupao.day06.homework.InsertJnlService</node>
+    <node x="157.0" y="0.0">com.wanglei.study.gupao.day06.homework.ChannelInserJnlSupport</node>
+    <node x="87.5" y="81.0">com.wanglei.study.gupao.day06.homework.InsertJnlAdapter</node>
+    <node x="72.0" y="157.0">com.wanglei.study.gupao.day06.homework.Adapters</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.wanglei.study.gupao.day06.homework.WyAdapter" target="com.wanglei.study.gupao.day06.homework.Adapters">
+      <point x="0.0" y="-15.5" />
+      <point x="56.5" y="213.0" />
+      <point x="97.25" y="213.0" />
+      <point x="-25.25" y="15.5" />
+    </edge>
+    <edge source="com.wanglei.study.gupao.day06.homework.AbAdapter" target="com.wanglei.study.gupao.day06.homework.Adapters">
+      <point x="0.0" y="-15.5" />
+      <point x="188.5" y="213.0" />
+      <point x="147.75" y="213.0" />
+      <point x="25.25" y="15.5" />
+    </edge>
+    <edge source="com.wanglei.study.gupao.day06.homework.InsertJnlAdapter" target="com.wanglei.study.gupao.day06.homework.InsertJnlService">
+      <point x="-35.75" y="-15.5" />
+      <point x="123.25" y="56.0" />
+      <point x="68.5" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.wanglei.study.gupao.day06.homework.InsertJnlAdapter" target="com.wanglei.study.gupao.day06.homework.ChannelInserJnlSupport">
+      <point x="35.75" y="-15.5" />
+      <point x="194.75" y="56.0" />
+      <point x="249.5" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="467.0" y="155.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
