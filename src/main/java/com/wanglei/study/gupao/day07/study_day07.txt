@@ -1,0 +1,10 @@
+1、思考并总结装饰者模式和适配器模式的根本区别。
+装饰者模式和适配器模式的本质区别就是："is a"和"has a"的区别;装饰者模式再怎么变，其本质未发生变化。
+在实际的应用场景中，装饰着注重覆盖和扩展，是业务需求阶段考虑的设计模式；适配器模式注重的是兼容，是兼容已有的业务场景。
+2、用Guava API实现GPer社区提问通知的业务场景。
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>20.0</version>
+        </dependency>
+
